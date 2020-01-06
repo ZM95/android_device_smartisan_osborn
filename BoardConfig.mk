@@ -22,7 +22,7 @@
 #
 
 # Inherit from sdm660-common
--include device/smartisan/sdm660-common/BoardConfigCommon.mk
+include device/smartisan/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/smartisan/osborn
 
@@ -33,4 +33,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # inherit from the proprietary version
--include vendor/smartisan/osborn/BoardConfigVendor.mk
+include vendor/smartisan/osborn/BoardConfigVendor.mk
